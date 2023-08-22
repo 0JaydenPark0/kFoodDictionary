@@ -1,0 +1,17 @@
+.food-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe5ab;
+  border: 1px solid rgb(255, 175, 2);
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.food-container:hover {
+  transform: scale(1.02);
+}

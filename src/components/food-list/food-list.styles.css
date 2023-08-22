@@ -1,0 +1,12 @@
+img {
+  width: 25rem;
+  border-radius: 15px;
+}
+
+.food-list {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
